@@ -20,7 +20,7 @@ Sample::Sample()
 
     // Plane material.
     auto planeMaterial = std::make_shared<Material>();
-    planeMaterial->diffuseColor = {0.5f, 0.5f, 0.5f, 1.0f};
+    planeMaterial->diffuseColor = {0.6f, 0.5f, 0.5f, 1.0f};
     planeMaterial->specularColor = {1.0f, 1.0f, 1.0f, 1.0f};
     planeMaterial->specularExp = 30.f;
     planeMaterial->specularIntensity = 0.5f;
