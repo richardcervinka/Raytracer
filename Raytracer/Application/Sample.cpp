@@ -79,7 +79,7 @@ Sample::Sample()
 
     // Front light.
     auto frontLight = std::make_shared<Light>();
-    frontLight->position = {200.f, 500.f, -550.f, 0.f};
+    frontLight->position = {100.f, 500.f, -550.f, 0.f};
     frontLight->color = {1.f, 1.f, 1.f, 0.f};
     frontLight->radius = 3000.f;
     frontLight->intensity = 3.f;
