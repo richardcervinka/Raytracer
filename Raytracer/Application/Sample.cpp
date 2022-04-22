@@ -4,7 +4,7 @@ Sample::Sample()
 {
     // Box material.
     auto boxMaterial = std::make_shared<Material>();
-    boxMaterial->diffuseColor = {0.9f, 0.6f, 0.2f, 1.0f};
+    boxMaterial->diffuseColor = {0.8f, 0.5f, 0.2f, 1.0f};
     boxMaterial->specularColor = {1.0f, 1.0f, 1.0f, 1.0f};
     boxMaterial->specularExp = 200.0f;
     boxMaterial->specularIntensity = 1.0f;
