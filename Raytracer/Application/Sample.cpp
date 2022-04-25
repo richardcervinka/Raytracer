@@ -4,7 +4,7 @@ Sample::Sample()
 {
     // Box material.
     auto boxMaterial = std::make_shared<Material>();
-    boxMaterial->diffuseColor = {0.9f, 0.6f, 0.2f, 1.0f};
+    boxMaterial->diffuseColor = {0.8f, 0.5f, 0.2f, 1.0f};
     boxMaterial->specularColor = {1.0f, 1.0f, 1.0f, 1.0f};
     boxMaterial->specularExp = 200.0f;
     boxMaterial->specularIntensity = 1.0f;
@@ -20,7 +20,7 @@ Sample::Sample()
 
     // Plane material.
     auto planeMaterial = std::make_shared<Material>();
-    planeMaterial->diffuseColor = {0.5f, 0.5f, 0.5f, 1.0f};
+    planeMaterial->diffuseColor = {0.6f, 0.5f, 0.5f, 1.0f};
     planeMaterial->specularColor = {1.0f, 1.0f, 1.0f, 1.0f};
     planeMaterial->specularExp = 30.f;
     planeMaterial->specularIntensity = 0.5f;
@@ -79,7 +79,7 @@ Sample::Sample()
 
     // Front light.
     auto frontLight = std::make_shared<Light>();
-    frontLight->position = {200.f, 500.f, -550.f, 0.f};
+    frontLight->position = {100.f, 500.f, -550.f, 0.f};
     frontLight->color = {1.f, 1.f, 1.f, 0.f};
     frontLight->radius = 3000.f;
     frontLight->intensity = 3.f;
